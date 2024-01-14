@@ -1,0 +1,111 @@
+@import "../node_modules/bootstrap/scss/bootstrap";
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap");
+
+* {
+  font-family: "Poppins", sans-serif;
+}
+
+.font-roboto {
+  font-family: "Roboto", sans-serif;
+}
+
+.font-extralight {
+  font-weight: 200;
+}
+.font-light {
+  font-weight: 300;
+}
+.font-regular {
+  font-weight: 400;
+}
+.font-medium {
+  font-weight: 500;
+}
+.font-semibold {
+  font-weight: 600;
+}
+.font-bold {
+  font-weight: 700;
+}
+.py-6 {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+.py-7 {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+.py-7 {
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+}
+.py-8 {
+  padding-top: 7rem;
+  padding-bottom: 7rem;
+}
+
+.text-gray {
+  color: #6c6c6c;
+}
+
+.text-pricing {
+  color: #848199;
+}
+.text-pricing-color {
+  color: #848199;
+}
+
+.text-pricing:hover {
+  color: white;
+  transition: 0.4s ease-in-out;
+  translate: 0% -3%;
+}
+
+.pb-8 {
+  padding-bottom: 7rem;
+}
+
+.mb-8 {
+  margin-bottom: 7rem;
+}
+
+.footer-color {
+  background-color: #0b0d17;
+}
+
+.btn-custom {
+  background-color: #fef5fb;
+  color: #000000;
+}
+
+.btn-outline-custom {
+  --bs-btn-color: #fef5fb;
+  --bs-btn-border-color: #fef5fb;
+  --bs-btn-hover-color: #3f87f5;
+  --bs-btn-hover-bg: #fef5fb;
+  --bs-btn-hover-border-color: #fef5fb;
+  --bs-btn-focus-shadow-rgb: 13, 110, 253;
+  --bs-btn-active-color: #000000;
+  --bs-btn-active-bg: #fbdff2;
+  --bs-btn-active-border-color: #fef5fb;
+  --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+  --bs-btn-disabled-color: #fef5fb;
+  --bs-btn-disabled-bg: #fef5fb;
+  --bs-btn-disabled-border-color: #fef5fb;
+  --bs-gradient: none;
+}
+
+.w-full {
+  width: 100%;
+}
+
+.choose-plan-font {
+  font-size: 1.25rem;
+  color: #3f87f5;
+}
+
+.pricing-hover:hover {
+  color: white;
+  background-color: #3f87f5;
+}
